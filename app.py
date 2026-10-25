@@ -25,4 +25,4 @@ if st.button("Predict Sales"):
     input_data = pd.DataFrame([[TV, Radio, Newspaper]], columns=['TV', 'Radio', 'Newspaper'])
     prediction = model.predict(input_data)[0]
     
-    st.success(f"Predicted Sales: **{prediction:.2f} units**")
+    st.success(f"Predicted Sales: **{prediction:.2f} M**")

@@ -7,7 +7,7 @@ import numpy as np
 # Stripping any accidental spaces in the filename
 @st.cache_resource
 def load_model():
-    return joblib.load('model.sav  ')
+    return joblib.load('model.sav')
 
 model = load_model()
 
